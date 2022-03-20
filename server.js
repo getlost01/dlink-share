@@ -11,8 +11,7 @@ const connectdb=require('./config/db')
 connectdb();
 //Cors
 const corsOpt={
-    origin: process.env.Allowed_Client.split(',')
-    // ['http://localhost:3000',"http://localhost:3000/"]
+    origin: ['http://localhost:3000',"http://localhost:3000/"]
 }
 app.use(cors(corsOpt))
 //Template engine
