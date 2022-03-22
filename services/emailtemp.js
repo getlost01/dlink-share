@@ -100,12 +100,12 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
     <body class="" style="background-color: #2e2e2e; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
         <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #686868; ">
         <tr>
-            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">&nbsp;</td>
+            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">Link-Share</td>
             <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 10px; width: 580px;">
             <div class="content" style="box-sizing: border-box; display: block; Margin: 0 auto; max-width: 580px; padding: 10px;">
     
                 <!-- START CENTERED WHITE CONTAINER -->
-                <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
+                <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Hey someone send you a file with link - share.</span>
                 <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #c7edff; border-radius: 3px;box-shadow: 0 10px 10px #101010;">
     
                 <!-- START MAIN CONTENT AREA -->
@@ -117,7 +117,7 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                             <p style="font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; Margin-bottom: 15px;">Hello! Customer, </p>
                             <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;"><b>${emailFrom}</b> has shared a file with our portal to you.</p>
                             <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Total size of file is ${size}. <br> This link will expires in ${expires}</p>
-                            <p style="font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; Margin-bottom: 15px;">Your link is here - ${downloadLink}</p>
+                            <p style="font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; Margin-bottom: 15px;">Your link is here -</p>
                             <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
                             <tbody>
                                 <tr>
@@ -134,7 +134,7 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                             </tbody>
                             </table>
                             <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using link-Share services.</p>
-                            <p style="font-family: sans-serif; font-size: 14px; font-weight: normal;text-decoration:none; margin: 0; Margin-bottom: 15px;">Visit our site <span><a href="">Here</a></p>
+                            <p style="font-family: sans-serif; font-size: 14px; font-weight: normal;text-decoration:none; margin: 0; Margin-bottom: 15px;">Visit our site <span><a href="https://link-share-app.netlify.app/">Here</a></p>
                         </td>
                         </tr>
                     </table>
