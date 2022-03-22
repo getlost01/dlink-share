@@ -74,7 +74,7 @@ router.post('/send',async(req,res)=>{
       text: `${emailFrom} shared a file with you.`,
       html: require('../services/emailtemp')({
                 emailFrom, 
-                downloadLink: `${process.env.APP_BASE_URL}/files/${file.uuid}?source=email` ,
+                downloadLink: `https://link-shareapp.herokuapp.com/files/${file.uuid}?source=email` ,
                 size: (parseInt(file.size)/1024).toFixed(2) +'KB',
                 expires: '24 hours'
       })
