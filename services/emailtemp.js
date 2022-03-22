@@ -150,7 +150,7 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                     <tr>
                     <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #e2e1e1; text-align: center;">
                         <span class="apple-link" style="color: #e2e1e1; font-size: 12px; text-align: center;">©2022 | link-Share </span>
-                        <br> Want to share a file? <a href="http://localhost:3000" style="text-decoration: underline; color: #e2e1e1; font-size: 12px; text-align: center;">link-Share</a>.
+                        <br> Want to share a file? <a href="https://link-share-app.netlify.app/" style="text-decoration: underline; color: #e2e1e1; font-size: 12px; text-align: center;">link-Share</a>.
                     </td>
                     </tr>
                     <tr>
