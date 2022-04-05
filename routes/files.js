@@ -70,7 +70,7 @@ router.post('/send',async(req,res)=>{
    sendMail({
       from: emailFrom,
       to: emailTo,
-      subject: 'inShare file sharing',
+      subject: 'Link - Share file sharing service',
       text: `${emailFrom} shared a file with you.`,
       html: require('../services/emailtemp')({
                 emailFrom, 
