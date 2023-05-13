@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "file management app",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
