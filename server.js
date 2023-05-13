@@ -13,6 +13,9 @@ connectdb();
 const corsOpt={
     origin: ['http://localhost:3000',"http://127.0.0.1:3000","https://link-share-app.netlify.app"]
 }
+
+app.listen(port, () => console.log(`Server is listening on port ${port}!`))
+
 app.use(cors(corsOpt))
 //Template engine
 app.set('views',path.join(__dirname,'/views'))
@@ -22,5 +25,6 @@ app.set('view engine','ejs')
 app.use('/api/files',require('./routes/files'))
 app.use('/files',require('./routes/show'))
 app.use('/files/download',require('./routes/download'))
-
-app.listen(port, () => console.log(`Server is listening on port ${port}!`))
+app.get('*', (req, res)=>{
+    res.send({'404': "Page not found!"});
+});
