@@ -87,26 +87,25 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
             line-height: inherit;
         }
         .btn-primary table td:hover {
-            background-color: #34495e !important;
+            background-color: #258cd0 !important;
         }
         .btn-primary a:hover {
-            background-color: #34495e !important;
-            border-color: #34495e !important;
-            box-shadow: 0 0 2px #34495e;
+            background-color: #258cd0 !important;
+            border-color: #258cd0 !important;
+            box-shadow: 0 0 2px #258cd0;
         }
         }
         </style>
     </head>
-    <body class="" style="background-color: #2e2e2e; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-        <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #686868; ">
+    <body class="" style="background-color: #f2f2f2; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f2f2f2; ">
         <tr>
-            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">Link-Share</td>
             <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 10px; width: 580px;">
             <div class="content" style="box-sizing: border-box; display: block; Margin: 0 auto; max-width: 580px; padding: 10px;">
     
                 <!-- START CENTERED WHITE CONTAINER -->
                 <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Hey someone send you a file with link - share.</span>
-                <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #c7edff; border-radius: 3px;box-shadow: 0 10px 10px #101010;">
+                <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #ffffff; border-radius: 5px;box-shadow: 0px 4px 6px #cccccc;">
     
                 <!-- START MAIN CONTENT AREA -->
                 <tr>
@@ -145,17 +144,17 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                 </table>
     
                 <!-- START FOOTER -->
-                <div class="footer" style="clear: both; Margin-top: 10px; text-align: center; width: 100%;">
+                <div class="footer" style="clear: both; Margin-top: 15px; background-color: #e0e0e0; border-radius: 5px;box-shadow: 0px 4px 6px #cccccc; text-align: center; width: 100%; font-weight: 500;">
                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                     <tr>
-                    <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #e2e1e1; text-align: center;">
-                        <span class="apple-link" style="color: #e2e1e1; font-size: 12px; text-align: center;">©2022 | link-Share </span>
-                        <br> Want to share a file? <a href="https://link-share-app.netlify.app/" style="text-decoration: underline; color: #e2e1e1; font-size: 12px; text-align: center;">link-Share</a>.
+                    <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #656565; text-align: center;">
+                        <span class="apple-link" style="color: #656565; font-size: 12px; text-align: center;">©2023 | Link-Share </span>
+                        <br> Want to share a file? <a href="https://link-share-app.netlify.app/" style="text-decoration: underline; color: #656565; font-size: 12px; text-align: center; font-weight:600;">link-Share</a>
                     </td>
                     </tr>
                     <tr>
-                    <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #e2e1e1; text-align: center;">
-                        Powered by <a href="https://portfolio-de-aagam.netlify.app/" target="_blank"style="color: #e2e1e1; font-size: 12px; text-align: center; text-decoration: none;">GL01</a>.
+                    <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #656565; text-align: center;">
+                        Powered by <a href="https://portfolio-de-aagam.netlify.app/" target="_blank"style="color: #656565; font-size: 12px; text-align: center; text-decoration: none; font-weight:600;">GL01</a>
                     </td>
                     </tr>
                 </table>
@@ -169,7 +168,7 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
         </tr>
         </table>
     </body>
-</html>
+    </html>
 
     `;
 }
