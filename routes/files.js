@@ -23,11 +23,10 @@ router.post('/',(req,res)=>{
    
    //store file
      upload(req,res,async(err)=>{
-
          //validate request
-   if(!req.file){
-    return res.json({error:'All values are required.'})
-       }
+         // if(!req.file){
+         //    return res.json({error:'All values are required.'})
+         // }
 
           if(err)
            return res.status(500).send({error:err.message})
