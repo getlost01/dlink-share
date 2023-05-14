@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #222222;
+  --main-bg-color: #303443;
   --light-blue: #03a9f4;
   --dark-blue: #028bca;
 }
@@ -40,6 +40,12 @@ section.download {
   margin-bottom: 0;
   line-height: 1.3;
 }
+.download__meta small{
+  color:  #b1b1b1;
+}
+.download p {
+  color: #b1b1b1;
+}
 .send-btn-container a {
   display: inline-block;
   font-size: 18px;
@@ -57,15 +63,12 @@ section.download {
 }
 
 .send-btn-container a:hover {
-    color: var(--dark-blue);
-    background-color: transparent;
-    border: 2px solid #028bca;
-    box-shadow: 0px 3px 3px 0px #028bca;
+  opacity: 0.85;
 }
 
 /* ------------------------ footer------------- */
 
- .icons{
+.icons{
   box-sizing: border-box;
   padding: 0;
   text-decoration: none;
@@ -87,7 +90,7 @@ section.download {
   list-style: none;
   cursor: pointer;
   font-size: 30px;
-  margin:7px;
+  margin:10px;
 }
 .icons ul li a{
   text-decoration: none;
@@ -106,8 +109,8 @@ section.download {
 .icons ul li:nth-child(1)::before{
   content: '\f08c';
   color: #1da1f2;
-  margin-top: 5px;
-  border-bottom: 4px solid #1da1f2;
+  margin-top: 3px;
+  border-bottom: 2px solid #1da1f2;
 }
 @keyframes anim {
    0%{
@@ -123,18 +126,15 @@ section.download {
 .icons ul li:nth-child(2)::before{
   content: '\f092';
   color: #25d366;
-  margin-top: 5px;
-  border-bottom: 4px solid #25d366;
+  margin-top: 3px;
+  border-bottom: 2px solid #25d366;
 }
 .icons ul li:nth-child(3)::before{
   content: '\f1e1';
   color: #ff0000;
-  margin-top: 5px;
-  border-bottom: 4px solid #ff0000;
+  margin-top: 3px;
+  border-bottom: 2px solid #ff0000;
 }
-
-
-
 
 
 
