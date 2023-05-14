@@ -16,7 +16,9 @@ const corsOpt={
 
 app.listen(port, () => console.log(`Server is listening on port ${port}!`))
 
-app.use(cors(corsOpt))
+app.use(cors({
+    origin: '*'
+}));
 //Template engine
 app.set('views',path.join(__dirname,'/views'))
 app.set('view engine','ejs')
